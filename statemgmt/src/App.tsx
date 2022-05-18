@@ -80,7 +80,9 @@ const charCountState = selector({
 function CharacterCount() {
   const count = useRecoilValue(charCountState);
 
-  return <>Character Count: {count}</>;
+  return (
+    <div>Character Count: {count};</div>
+  );
 }
 
 export default App;
